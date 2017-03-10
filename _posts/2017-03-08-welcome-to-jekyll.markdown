@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2017-03-08 14:49:11 +0200
-categories: jekyll update
+categories: jekyll update cat1
 ---
 $$a^2 + b^2 = c^2$$
 
