@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Version Control With Git Part I"
 date:   2017-03-08 14:49:11 +0200
 categories: jekyll update cat1
 ---
