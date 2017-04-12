@@ -1,0 +1,52 @@
+---
+layout: post
+title:  "Us and Them"
+date:   2017-03-08 14:49:11 +0200
+categories:
+---
+
+1. Give back:
+   1. Build an hands-on Meetup for Elixir/Golang Git/Docker/CD (heavy ops are out
+      of scope) in Beersheva. registered under the company name. be prepeared
+      for 10 first meetups with the content.
+   2. Think of a non profit intiative for coding and launch it, until 08.05.2017.
+   3. talkes: lifelong kindergaurden, philosophy of real world data, learning
+      how to learn.
+
+   4. elixir development hands-on meetup 6
+      1. basics of the functional language
+      2. elixir school ...
+
+   4. web development hands-on meetup - 12 meetups covers:
+      1. phoenix as MVC and diffrent approaches to web development.
+      2. protocoles http, verbs, etc..(crud)
+      2. creating first pages.
+      3. modeling the data, (ecto and friends).
+      4. correct api development.
+      5. intro to testing and the plug + conn object.
+      6. front-end with polymer
+      7. getting to know nodejs
+      9. file uploades.
+      10. contnious integration and deployment to heroku.
+      11. debugging.
+
+  4. advanced web (phoenix) development hands-on 6 meetups covers:
+     1. genserver and more into otp and erlang.
+     2. umbrella projects.
+     3. geolocation services.
+     8. real time web development.
+     6. exploring databases (graph/elasticsearch/rethinkdb/mongo).
+
+   4. Data driven develoment hands-on meetup - 12 meetups covers:
+      1. meaningful testing - part 2.
+      2. analytics and why they are importent.
+      3. strategies and real world examples of apps with analytics.
+      4. integrating with analytics providers.
+      5. meaningful logging.
+      7. individuales in organizations and data culture.
+      8. high volume and performance data engineering solutions.
+
+2. public projects in Elixir/Golang:
+    1. Accounts: smart accounts systems for user authentication and analytics.
+    2. digit-recognizer - tutorial for digit recognizer in Golang.
+    3. elixir nerves - IoT with elixir and nerve - do a cool project.

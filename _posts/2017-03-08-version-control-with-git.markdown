@@ -36,7 +36,7 @@ categories:
   1. [deep bach]
 6. humor detection - train data:  popular funny content, function([news,
    current events, 9gag]) { return jokes,memes };
-   can we fight racisem, prejudice, deal with embasedoreship.
+   can we fight racisem, prejudice, deal with arbassadorship.
    but if an AI process using this methods, how we know he isnt bias?
    what bias is? and why we care so much about objectivity(can we represent
    a proposition with vector and test his linearly independent?)
@@ -44,6 +44,7 @@ categories:
   1. [Humor research]
 
 7. learning motivator - ai machine for gaps detection between skill and challenge.
+8. training suit that learnes your body and maximize training.
 
 
 [ML and the nature of universe]: https://www.technologyreview.com/s/602344/the-extraordinary-link-between-deep-neural-networks-and-the-nature-of-the-universe/
