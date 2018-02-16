@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "GW"
+title:  "AC"
 date:   2018-02-16 14:49:11 +0200
-categories: physics
+categories: software
 ---
 
 1. sketch.
