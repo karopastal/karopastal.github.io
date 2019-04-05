@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/post/2019/04/05/juicy-code/</loc>
+    <lastmod>2019-04-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/2018/08/30/markdown-guide-modified/</loc>
     <lastmod>2018-08-30T00:00:00+00:00</lastmod>
   </url>
@@ -15,11 +20,6 @@
   <url>
     <loc>/post/2012/03/12/command-line-awesomeness/</loc>
     <lastmod>2012-03-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/2012/01/23/juicy-code/</loc>
-    <lastmod>2012-01-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -41,12 +41,6 @@
   </url>
   
   <url>
-    <loc>/categories/code/</loc>
-    <lastmod>2012-01-23T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/categories/example/</loc>
     <lastmod>2018-08-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -60,13 +54,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2018-08-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/juicy/</loc>
-    <lastmod>2012-01-23T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <lastmod>2019-04-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -77,13 +65,31 @@
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2018-08-30T00:00:00+00:00</lastmod>
+    <lastmod>2019-04-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/</loc>
     <lastmod>2012-03-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/oauth2/</loc>
+    <lastmod>2019-04-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/open-source/</loc>
+    <lastmod>2019-04-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/software/</loc>
+    <lastmod>2019-04-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

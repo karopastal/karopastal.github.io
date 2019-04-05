@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Classic</title>
+    <title>Tags on Tal Paskaro</title>
     <link>/tags/</link>
-    <description>Recent content in Tags on Classic</description>
+    <description>Recent content in Tags on Tal Paskaro</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 12 Mar 2012 00:00:00 +0000</lastBuildDate>
@@ -21,20 +21,29 @@
     </item>
     
     <item>
-      <title>Juicy</title>
-      <link>/tags/juicy/</link>
-      <pubDate>Mon, 23 Jan 2012 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/juicy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Markdown</title>
       <link>/tags/markdown/</link>
       <pubDate>Thu, 30 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>oauth2</title>
+      <link>/tags/oauth2/</link>
+      <pubDate>Fri, 05 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/oauth2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>open-source</title>
+      <link>/tags/open-source/</link>
+      <pubDate>Fri, 05 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/open-source/</guid>
       <description></description>
     </item>
     

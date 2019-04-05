@@ -1,15 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Classic</title>
+    <title>Posts on Tal Paskaro</title>
     <link>/post/</link>
-    <description>Recent content in Posts on Classic</description>
+    <description>Recent content in Posts on Tal Paskaro</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 30 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 05 Apr 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Implemnting Oauth2 with Hydra</title>
+      <link>/post/2019/04/05/juicy-code/</link>
+      <pubDate>Fri, 05 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019/04/05/juicy-code/</guid>
+      <description>Check out this JUICY! code:
+def with_value_from_database(value) self.class.from_database(name, value, type) end def with_cast_value(value) self.class.with_cast_value(name, value, type) end def with_type(type) if changed_in_place? with_value_from_user(value).with_type(type) else self.class.new(name, value_before_type_cast, type, original_attribute) end end  </description>
+    </item>
     
     <item>
       <title>Markdown Guide (modified)</title>
@@ -45,16 +55,6 @@ Buyer: &amp;ldquo;But this dealership has mechanics on staff.</description>
       <guid>/post/2012/03/12/command-line-awesomeness/</guid>
       <description>This crud is called HTML (HyperText Markup Language) and it is basically a very simple programming language instructing your web browser how to draw a page on a screen. Anyone can learn HTML and many people do. The important thing is that no matter what splendid multimedia web pages they might represent, HTML files are just telegrams.
  When Ronald Reagan was a radio announcer, he used to call baseball games by reading the terse descriptions that trickled in over the telegraph wire and were printed out on a paper tape.</description>
-    </item>
-    
-    <item>
-      <title>Juicy Code</title>
-      <link>/post/2012/01/23/juicy-code/</link>
-      <pubDate>Mon, 23 Jan 2012 00:00:00 +0000</pubDate>
-      
-      <guid>/post/2012/01/23/juicy-code/</guid>
-      <description>Check out this JUICY! code:
-def with_value_from_database(value) self.class.from_database(name, value, type) end def with_cast_value(value) self.class.with_cast_value(name, value, type) end def with_type(type) if changed_in_place? with_value_from_user(value).with_type(type) else self.class.new(name, value_before_type_cast, type, original_attribute) end end  </description>
     </item>
     
   </channel>
