@@ -6,19 +6,18 @@
     <description>Recent content in software on Tal Paskaro</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 05 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 30 Aug 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/software/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Implemnting Oauth2 with Hydra</title>
-      <link>/post/2019/04/05/juicy-code/</link>
-      <pubDate>Fri, 05 Apr 2019 00:00:00 +0000</pubDate>
+      <title>implmintation of hydra oauth2</title>
+      <link>/post/2018/08/30/implmintation-of-hydra-oauth2/</link>
+      <pubDate>Thu, 30 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>/post/2019/04/05/juicy-code/</guid>
-      <description>Check out this JUICY! code:
-def with_value_from_database(value) self.class.from_database(name, value, type) end def with_cast_value(value) self.class.with_cast_value(name, value, type) end def with_type(type) if changed_in_place? with_value_from_user(value).with_type(type) else self.class.new(name, value_before_type_cast, type, original_attribute) end end  </description>
+      <guid>/post/2018/08/30/implmintation-of-hydra-oauth2/</guid>
+      <description></description>
     </item>
     
   </channel>
