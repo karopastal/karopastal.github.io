@@ -6,28 +6,9 @@
     <description>Recent content in Home on Tal Paskaro</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 04 Apr 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>uncertainty and chi-square</title>
-      <link>/post/2019/04/04/hacker-with-horn/</link>
-      <pubDate>Thu, 04 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/post/2019/04/04/hacker-with-horn/</guid>
-      <description> \(\chi^2\)  what and why. exmaple with dataset. matlab script with ui.  </description>
-    </item>
-    
-    <item>
-      <title>implmintation of hydra oauth2</title>
-      <link>/post/2018/08/30/implmintation-of-hydra-oauth2/</link>
-      <pubDate>Thu, 30 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/2018/08/30/implmintation-of-hydra-oauth2/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>

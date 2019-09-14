@@ -10,32 +10,5 @@
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
-    <item>
-      <title>matlab</title>
-      <link>/tags/matlab/</link>
-      <pubDate>Thu, 04 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/matlab/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>oauth2</title>
-      <link>/tags/oauth2/</link>
-      <pubDate>Thu, 30 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/oauth2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>physics</title>
-      <link>/tags/physics/</link>
-      <pubDate>Thu, 04 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/physics/</guid>
-      <description></description>
-    </item>
-    
   </channel>
 </rss>
