@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on Tal Paskaro</title>
-    <link>/</link>
-    <description>Recent content in Home on Tal Paskaro</description>
+    <title>cwt on Tal Paskaro</title>
+    <link>/tags/cwt/</link>
+    <description>Recent content in cwt on Tal Paskaro</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 21 Nov 2019 11:15:00 -0300</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/cwt/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
