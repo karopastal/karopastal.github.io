@@ -1,22 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>python on Tal Paskaro</title>
+    <title>Python on Tal Paskaro</title>
     <link>/tags/python/</link>
-    <description>Recent content in python on Tal Paskaro</description>
+    <description>Recent content in Python on Tal Paskaro</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 21 Nov 2019 11:15:00 -0300</lastBuildDate>
+    <lastBuildDate>Mon, 25 Nov 2019 11:15:00 -0300</lastBuildDate>
     
 	<atom:link href="/tags/python/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>continious wavelet transforms</title>
-      <link>/post/2019/11/21/continious-wavelet-transforms/</link>
-      <pubDate>Thu, 21 Nov 2019 11:15:00 -0300</pubDate>
+      <title>Generating Signals, Backgrounds and Wavelets</title>
+      <link>/post/2019/11/25/generating-signals-backgrounds-and-wavelets/</link>
+      <pubDate>Mon, 25 Nov 2019 11:15:00 -0300</pubDate>
       
-      <guid>/post/2019/11/21/continious-wavelet-transforms/</guid>
+      <guid>/post/2019/11/25/generating-signals-backgrounds-and-wavelets/</guid>
+      <description> setup configuring signals, backgrounds and wavelets sessions commands </description>
+    </item>
+    
+    <item>
+      <title>N-site Quantum System Simulation</title>
+      <link>/post/1/01/01/n-site-quantum-system-simulation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/post/1/01/01/n-site-quantum-system-simulation/</guid>
       <description>&lt;!--this tag makes only images show on the main page--&gt;</description>
     </item>
     
