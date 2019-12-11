@@ -6,17 +6,17 @@
     <description>Recent content in Posts on Tal Paskaro</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 25 Nov 2019 11:15:00 -0300</lastBuildDate>
+    <lastBuildDate>Tue, 10 Dec 2019 11:15:00 -0300</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Generating Signals, Backgrounds and Wavelets</title>
-      <link>/post/2019/11/25/generating-signals-backgrounds-and-wavelets/</link>
-      <pubDate>Mon, 25 Nov 2019 11:15:00 -0300</pubDate>
+      <link>/post/2019/12/10/generating-signals-backgrounds-and-wavelets/</link>
+      <pubDate>Tue, 10 Dec 2019 11:15:00 -0300</pubDate>
       
-      <guid>/post/2019/11/25/generating-signals-backgrounds-and-wavelets/</guid>
+      <guid>/post/2019/12/10/generating-signals-backgrounds-and-wavelets/</guid>
       <description>This is a short technical tutorial to get quickly into configuring signals, backgrounds and wavelets using the Signal Generator. Make sure before starting that you have completed the project setup/update as presented in the project&amp;rsquo;s README.
 up and running Lets run the management app:
 $ make web  Visit the management app: http://127.0.0.1:5000/
