@@ -76,11 +76,15 @@
 
 <nav id="TableOfContents">
 <ul>
-<li><a href="#setup">setup</a></li>
-<li><a href="#configuring-signals-backgrounds-and-wavelets">configuring signals, backgrounds and wavelets</a>
+<li><a href="#up-and-running">up and running</a>
 <ul>
-<li><a href="#sessions">sessions</a></li>
-<li><a href="#commands">commands</a></li>
+<li><a href="#sessions">sessions</a>
+<ul>
+<li><a href="#listing">listing</a></li>
+<li><a href="#loading">loading</a></li>
+<li><a href="#saving">saving</a></li>
+<li><a href="#deleting">deleting</a></li>
+</ul></li>
 </ul></li>
 </ul>
 </nav>
@@ -89,23 +93,86 @@
 <main>
 
 
-<!-- # CWT -->
+<p>This is a short technical tutorial to get quickly into configuring signals, backgrounds and wavelets
+using the <a href="https://github.com/karopastal/signal_generator">Signal Generator</a>. Make sure before starting
+that you have completed the project setup/update as presented in the project&rsquo;s <a href="https://github.com/karopastal/signal_generator/blob/master/README.md">README</a>.</p>
 
-<h1 id="setup">setup</h1>
+<h1 id="up-and-running">up and running</h1>
 
-<h1 id="configuring-signals-backgrounds-and-wavelets">configuring signals, backgrounds and wavelets</h1>
+<p>Lets run the management app:</p>
+
+<pre><code class="language-shell">$ make web
+</code></pre>
+
+<p><strong>Visit the management app: <a href="http://127.0.0.1:5000/">http://127.0.0.1:5000/</a></strong></p>
+
+<p>As you can see under the signals, background and wavelets tabs there is a configuration that is presented by default. Using the
+interface you can edit, delete and add new ones. Once you are done and want to save the configuration you shall use the <strong><code>sessions</code></strong>
+option that will be presented in the next section.</p>
 
 <h2 id="sessions">sessions</h2>
 
-<h2 id="commands">commands</h2>
+<p>A session is a way to save the current state of the <a href="http://127.0.0.1:5000/">managment app</a>. <br/>
+<strong>NOTE</strong>: the sessions are saved as <code>.json</code> files. the <strong><code>NAME</code></strong> argument accepts only the session&rsquo;s name <strong>without</strong> the <code>.json</code> suffix.</p>
 
-<!-- $$ \overleftarrow{AB} $$
+<h3 id="listing">listing</h3>
 
-Mother Wavelet: $$ ok \ so \ this \ and \  that: la \newline \nabla lalal $$ 
+<p>Lets run the following command in order to list the current saved sessions:</p>
 
-$$ \vert \psi \rang  = $$
+<pre><code class="language-shell">  $ make list-sessions
+</code></pre>
 
-SOME INLINE \\( \vert \psi \rang  =  \frac{a}{b} \\) -->
+<p>This should print:</p>
+
+<pre><code class="language-shell">classifier_toy_dataset.json  default_example_session.json
+</code></pre>
+
+<p>Those are the current sessions available. As mentioned before the configuration that presented by default with the
+<a href="http://127.0.0.1:5000/">managment app</a> called the <code>default_example_session</code>.</p>
+
+<h3 id="loading">loading</h3>
+
+<p>Lets try to load the <code>clasifier_toy_dataset</code> session:</p>
+
+<pre><code class="language-shell">  $ make load-session NAME=clasifier_toy_dataset
+</code></pre>
+
+<p>Now refresh the <a href="http://127.0.0.1:5000/">managment app</a>, as you can see we set the state to the <code>clasifier_toy_dataset</code>!</p>
+
+<h3 id="saving">saving</h3>
+
+<p>Visit the <a href="http://127.0.0.1:5000/">managment app</a> and change the configuration by adding for example a new signal.
+Now we want to save this new configuration in a separate session:</p>
+
+<pre><code class="language-shell">  $ make save-session NAME=new_configuration
+</code></pre>
+
+<p>Lets try to list again the sessions and we will get that:</p>
+
+<pre><code class="language-shell">  $ make list-sessions
+</code></pre>
+
+<p>This should print:</p>
+
+<pre><code class="language-shell">classifier_toy_dataset.json  default_example_session.json new_configuration.json
+</code></pre>
+
+<h3 id="deleting">deleting</h3>
+
+<pre><code class="language-shell">  $ make delete-session NAME=new_configuration
+</code></pre>
+
+<p>Lets check that <code>new_configuration</code> is no longer available:</p>
+
+<pre><code class="language-shell">  $ make list-sessions
+</code></pre>
+
+<p>This should print:</p>
+
+<pre><code class="language-shell">classifier_toy_dataset.json  default_example_session.json
+</code></pre>
+
+<p>Now you have all the functionality needed to list, save, load and delete sessions!</p>
 
 </main>
 

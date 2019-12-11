@@ -17,7 +17,10 @@
       <pubDate>Mon, 25 Nov 2019 11:15:00 -0300</pubDate>
       
       <guid>/post/2019/11/25/generating-signals-backgrounds-and-wavelets/</guid>
-      <description> setup configuring signals, backgrounds and wavelets sessions commands </description>
+      <description>This is a short technical tutorial to get quickly into configuring signals, backgrounds and wavelets using the Signal Generator. Make sure before starting that you have completed the project setup/update as presented in the project&amp;rsquo;s README.
+up and running Lets run the management app:
+$ make web  Visit the management app: http://127.0.0.1:5000/
+As you can see under the signals, background and wavelets tabs there is a configuration that is presented by default.</description>
     </item>
     
   </channel>
