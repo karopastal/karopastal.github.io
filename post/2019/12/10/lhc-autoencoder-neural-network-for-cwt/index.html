@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LHC Autoencoder Neural Network for CWT | *</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="/css/theme-override.css">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.0-rc.1/dist/katex.min.css" integrity="sha384-D+9gmBxUQogRLqvARvNLmA9hS2x//eK1FhVb9PiU86gmcrBrJAQT8okdJ4LMp2uv" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0-rc.1/dist/katex.min.js" integrity="sha384-483A6DwYfKeDa0Q52fJmxFXkcPCFfnXMoXblOkJ4JcA8zATN6Tm78UNL72AKk+0O" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0-rc.1/dist/contrib/auto-render.min.js" integrity="sha384-yACMu8JWxKzSp/C1YV86pzGiQ/l1YUfE8oPuahJQxzehAjEt2GiQuy/BIvl9KyeF" crossorigin="anonymous"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            renderMathInElement(document.body);
+        });
+    </script>
+
+<header>
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <nav>
+    <ul>
+      
+      
+      <li class="pull-left ">
+        <a href="/">*</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/">home</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/post/">posts</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/about">about</a>
+      </li>
+      
+
+      
+      
+      <li class="pull-right">
+        <a href="/index.xml">subscribe</a>
+      </li>
+      
+
+    </ul>
+  </nav>
+</header>
+
+  </head>
+
+  <body>
+    <br/>
+
+<div class="article-meta">
+<h1><span class="title">LHC Autoencoder Neural Network for CWT</span></h1>
+
+<h2 class="date">2019/12/10</h2>
+<p class="terms">
+  
+  
+  
+  
+  Tags: <a href="/tags/python">Python</a> <a href="/tags/cwt">CWT</a> 
+  
+  
+</p>
+</div>
+
+
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#sessions">sessions</a>
+      <ul>
+        <li><a href="#listing">listing</a></li>
+        <li><a href="#loading">loading</a></li>
+        <li><a href="#saving">saving</a></li>
+        <li><a href="#deleting">deleting</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+<main>
+<p>This is a short technical tutorial to get quickly into configuring signals, backgrounds and wavelets
+using the <a href="https://github.com/karopastal/signal_generator">Signal Generator</a>. Make sure before starting
+that you have completed the project setup/update as presented in the project&rsquo;s <a href="https://github.com/karopastal/signal_generator/blob/master/README.md">README</a>.</p>
+<h1 id="up-and-running">up and running</h1>
+<p>Lets run the management app:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-s" data-lang="s"><span style="color:#f92672">$</span> make web
+</code></pre></div><p><strong>Visit the management app: http://127.0.0.1:5000/</strong></p>
+<p>As you can see under the signals, background and wavelets tabs there is a configuration that is presented by default. Using the
+interface you can edit, delete and add new ones. Once you are done and want to save the configuration you shall use the <strong><code>sessions</code></strong>
+option that will be presented in the next section.</p>
+<h2 id="sessions">sessions</h2>
+<p>A session is a way to save the current state of the <a href="http://127.0.0.1:5000/">managment app</a>. <!-- raw HTML omitted -->
+<strong>NOTE</strong>: the sessions are saved as <code>.json</code> files. the <strong><code>NAME</code></strong> argument accepts only the session&rsquo;s name <strong>without</strong> the <code>.json</code> suffix.</p>
+<h3 id="listing">listing</h3>
+<p>Lets run the following command in order to list the current saved sessions:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">  $ make list-sessions
+</code></pre></div><p>This should print:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-s" data-lang="s">classifier_toy_dataset.json  default_example_session.json
+</code></pre></div><p>Those are the current sessions available. As mentioned before the configuration that presented by default with the
+<a href="http://127.0.0.1:5000/">managment app</a> called the <code>default_example_session</code>.</p>
+<h3 id="loading">loading</h3>
+<p>Lets try to load the <code>clasifier_toy_dataset</code> session:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-s" data-lang="s">  <span style="color:#f92672">$</span> make load<span style="color:#f92672">-</span>session NAME<span style="color:#f92672">=</span>clasifier_toy_dataset
+</code></pre></div><p>Now refresh the <a href="http://127.0.0.1:5000/">managment app</a>, as you can see we set the state to the <code>clasifier_toy_dataset</code>!</p>
+<h3 id="saving">saving</h3>
+<p>Visit the <a href="http://127.0.0.1:5000/">managment app</a> and change the configuration by adding for example a new signal.
+Now we want to save this new configuration in a separate session:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-s" data-lang="s">  <span style="color:#f92672">$</span> make save<span style="color:#f92672">-</span>session NAME<span style="color:#f92672">=</span>new_configuration
+</code></pre></div><p>Lets try to list again the sessions and we will get that:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-s" data-lang="s">  <span style="color:#f92672">$</span> make list<span style="color:#f92672">-</span>sessions
+</code></pre></div><p>This should print:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-s" data-lang="s">classifier_toy_dataset.json  default_example_session.json new_configuration.json
+</code></pre></div><h3 id="deleting">deleting</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-s" data-lang="s">  <span style="color:#f92672">$</span> make delete<span style="color:#f92672">-</span>session NAME<span style="color:#f92672">=</span>new_configuration
+</code></pre></div><p>Lets check that <code>new_configuration</code> is no longer available:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-s" data-lang="s">  <span style="color:#f92672">$</span> make list<span style="color:#f92672">-</span>sessions
+</code></pre></div><p>This should print:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-s" data-lang="s">classifier_toy_dataset.json  default_example_session.json
+</code></pre></div><p>Now you have all the functionality needed to list, save, load and delete sessions!</p>
+
+</main>
+
+    <footer>
+      
+<script>
+(function() {
+  function center_el(tagName) {
+    var tags = document.getElementsByTagName(tagName), i, tag;
+    for (i = 0; i < tags.length; i++) {
+      tag = tags[i];
+      var parent = tag.parentElement;
+      
+      if (parent.childNodes.length === 1) {
+        
+        if (parent.nodeName === 'A') {
+          parent = parent.parentElement;
+          if (parent.childNodes.length != 1) continue;
+        }
+        if (parent.nodeName === 'P') parent.style.textAlign = 'center';
+      }
+    }
+  }
+  var tagNames = ['img', 'embed', 'object'];
+  for (var i = 0; i < tagNames.length; i++) {
+    center_el(tagNames[i]);
+  }
+})();
+</script>
+
+      
+      <hr/>
+      tal dot paskaro dot a at gmail | <a href="https://github.com/karopastal">Github</a> | 2020
+      
+    </footer>
+  </body>
+</html>
+

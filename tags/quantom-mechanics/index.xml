@@ -1,23 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Quantom Mechanics on Tal Paskaro</title>
+    <title>Quantom Mechanics on *</title>
     <link>/tags/quantom-mechanics/</link>
-    <description>Recent content in Quantom Mechanics on Tal Paskaro</description>
+    <description>Recent content in Quantom Mechanics on *</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Jan 2020 11:15:00 -0300</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/quantom-mechanics/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>N-site Quantum System Simulation</title>
-      <link>/post/2020/01/20/n-site-quantum-system-simulation/</link>
-      <pubDate>Mon, 20 Jan 2020 11:15:00 -0300</pubDate>
+      <title>Quantum Ring Simulation</title>
+      <link>/post/2020/01/20/quantum-ring-simulation/</link>
+      <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>/post/2020/01/20/n-site-quantum-system-simulation/</guid>
-      <description>&lt;!--this tag makes only images show on the main page--&gt;</description>
+      <guid>/post/2020/01/20/quantum-ring-simulation/</guid>
+      <description>Quantum states detector \[ \hat{H} = cD + c^*D^{\dagger} = 2c\cos(\hat{ p }) \]
+visit project repositiry: https://github.com/karopastal/quantum_states_detector</description>
     </item>
     
   </channel>

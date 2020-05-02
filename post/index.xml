@@ -1,34 +1,35 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Tal Paskaro</title>
+    <title>Posts on *</title>
     <link>/post/</link>
-    <description>Recent content in Posts on Tal Paskaro</description>
+    <description>Recent content in Posts on *</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Jan 2020 11:15:00 -0300</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>N-site Quantum System Simulation</title>
-      <link>/post/2020/01/20/n-site-quantum-system-simulation/</link>
-      <pubDate>Mon, 20 Jan 2020 11:15:00 -0300</pubDate>
+      <title>Quantum Ring Simulation</title>
+      <link>/post/2020/01/20/quantum-ring-simulation/</link>
+      <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>/post/2020/01/20/n-site-quantum-system-simulation/</guid>
-      <description>&lt;!--this tag makes only images show on the main page--&gt;</description>
+      <guid>/post/2020/01/20/quantum-ring-simulation/</guid>
+      <description>Quantum states detector \[ \hat{H} = cD + c^*D^{\dagger} = 2c\cos(\hat{ p }) \]
+visit project repositiry: https://github.com/karopastal/quantum_states_detector</description>
     </item>
     
     <item>
-      <title>Generating Signals, Backgrounds and Wavelets</title>
-      <link>/post/2019/12/10/generating-signals-backgrounds-and-wavelets/</link>
+      <title>LHC Autoencoder Neural Network for CWT</title>
+      <link>/post/2019/12/10/lhc-autoencoder-neural-network-for-cwt/</link>
       <pubDate>Tue, 10 Dec 2019 11:15:00 -0300</pubDate>
       
-      <guid>/post/2019/12/10/generating-signals-backgrounds-and-wavelets/</guid>
+      <guid>/post/2019/12/10/lhc-autoencoder-neural-network-for-cwt/</guid>
       <description>This is a short technical tutorial to get quickly into configuring signals, backgrounds and wavelets using the Signal Generator. Make sure before starting that you have completed the project setup/update as presented in the project&amp;rsquo;s README.
 up and running Lets run the management app:
-$ make web  Visit the management app: http://127.0.0.1:5000/
+$ make web Visit the management app: http://127.0.0.1:5000/
 As you can see under the signals, background and wavelets tabs there is a configuration that is presented by default.</description>
     </item>
     

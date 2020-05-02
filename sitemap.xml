@@ -1,55 +1,53 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/post/2020/01/20/n-site-quantum-system-simulation/</loc>
-    <lastmod>2020-01-20T11:15:00-03:00</lastmod>
+    <loc>/</loc>
+    <lastmod>2020-01-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/2019/12/10/generating-signals-backgrounds-and-wavelets/</loc>
-    <lastmod>2019-12-10T11:15:00-03:00</lastmod>
+    <loc>/post/</loc>
+    <lastmod>2020-01-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/python/</loc>
+    <lastmod>2020-01-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/quantom-mechanics/</loc>
+    <lastmod>2020-01-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2020/01/20/quantum-ring-simulation/</loc>
+    <lastmod>2020-01-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-01-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/cwt/</loc>
     <lastmod>2019-12-10T11:15:00-03:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/post/2019/12/10/lhc-autoencoder-neural-network-for-cwt/</loc>
+    <lastmod>2019-12-10T11:15:00-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/about/</loc>
   </url>
   
   <url>
     <loc>/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
-    <lastmod>2020-01-20T11:15:00-03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/python/</loc>
-    <lastmod>2020-01-20T11:15:00-03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/quantom-mechanics/</loc>
-    <lastmod>2020-01-20T11:15:00-03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2019-12-10T11:15:00-03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2020-01-20T11:15:00-03:00</lastmod>
   </url>
   
 </urlset>
