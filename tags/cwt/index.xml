@@ -3,13 +3,12 @@
   <channel>
     <title>CWT on *</title>
     <link>/tags/cwt/</link>
-    <description>Recent content in CWT on *</description>
+    <description>Recent content in CWT on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 10 Dec 2019 11:15:00 -0300</lastBuildDate>
     
-	<atom:link href="/tags/cwt/index.xml" rel="self" type="application/rss+xml" />
-    
+    <atom:link href="/tags/cwt/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>LHC Autoencoder Neural Network for CWT</title>
@@ -17,10 +16,11 @@
       <pubDate>Tue, 10 Dec 2019 11:15:00 -0300</pubDate>
       
       <guid>/post/2019/12/10/lhc-autoencoder-neural-network-for-cwt/</guid>
-      <description>This is a short technical tutorial to get quickly into configuring signals, backgrounds and wavelets using the Signal Generator. Make sure before starting that you have completed the project setup/update as presented in the project&amp;rsquo;s README.
-up and running Lets run the management app:
-$ make web Visit the management app: http://127.0.0.1:5000/
-As you can see under the signals, background and wavelets tabs there is a configuration that is presented by default.</description>
+      <description>
+      
+      Generating Signals, Backgrounds and Wavelets
+      
+      </description>
     </item>
     
   </channel>

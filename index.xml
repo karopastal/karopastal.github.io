@@ -3,13 +3,12 @@
   <channel>
     <title>*</title>
     <link>/</link>
-    <description>Recent content on *</description>
+    <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 20 Jan 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Quantum Ring Simulation</title>
@@ -17,29 +16,36 @@
       <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>/post/2020/01/20/quantum-ring-simulation/</guid>
-      <description>Quantum states detector \[ \hat{H} = cD + c^*D^{\dagger} = 2c\cos(\hat{ p }) \]
-visit project repositiry: https://github.com/karopastal/quantum_states_detector</description>
+      <description>
+      
+      N-site Quantum Ring
+      
+      </description>
     </item>
-    
     <item>
       <title>LHC Autoencoder Neural Network for CWT</title>
       <link>/post/2019/12/10/lhc-autoencoder-neural-network-for-cwt/</link>
       <pubDate>Tue, 10 Dec 2019 11:15:00 -0300</pubDate>
       
       <guid>/post/2019/12/10/lhc-autoencoder-neural-network-for-cwt/</guid>
-      <description>This is a short technical tutorial to get quickly into configuring signals, backgrounds and wavelets using the Signal Generator. Make sure before starting that you have completed the project setup/update as presented in the project&amp;rsquo;s README.
-up and running Lets run the management app:
-$ make web Visit the management app: http://127.0.0.1:5000/
-As you can see under the signals, background and wavelets tabs there is a configuration that is presented by default.</description>
+      <description>
+      
+      Generating Signals, Backgrounds and Wavelets
+      
+      </description>
     </item>
-    
     <item>
       <title>About</title>
       <link>/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/about/</guid>
-      <description>Physics and CS student at BGU</description>
+      <description>
+      
+      Physics and CS student at BGU
+
+      
+      </description>
     </item>
     
   </channel>

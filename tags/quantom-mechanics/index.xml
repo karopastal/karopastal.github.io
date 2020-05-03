@@ -3,13 +3,12 @@
   <channel>
     <title>Quantom Mechanics on *</title>
     <link>/tags/quantom-mechanics/</link>
-    <description>Recent content in Quantom Mechanics on *</description>
+    <description>Recent content in Quantom Mechanics on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 20 Jan 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/quantom-mechanics/index.xml" rel="self" type="application/rss+xml" />
-    
+    <atom:link href="/tags/quantom-mechanics/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Quantum Ring Simulation</title>
@@ -17,8 +16,11 @@
       <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>/post/2020/01/20/quantum-ring-simulation/</guid>
-      <description>Quantum states detector \[ \hat{H} = cD + c^*D^{\dagger} = 2c\cos(\hat{ p }) \]
-visit project repositiry: https://github.com/karopastal/quantum_states_detector</description>
+      <description>
+      
+      N-site Quantum Ring
+      
+      </description>
     </item>
     
   </channel>
