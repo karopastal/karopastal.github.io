@@ -1,38 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Python on *</title>
-    <link>/tags/python/</link>
-    <description>Recent content in Python on </description>
+    <title>Python on Tal Paskaro</title>
+    <link>https://karopastal.github.io/tags/python/</link>
+    <description>Recent content in Python on Tal Paskaro</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Jan 2020 00:00:00 +0000</lastBuildDate>
-    
-    <atom:link href="/tags/python/index.xml" rel="self" type="application/rss+xml" />
-    
+    <copyright>Tal Paskaro © {year}</copyright>
+    <lastBuildDate>Mon, 20 Jan 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://karopastal.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Quantum Ring Simulation</title>
-      <link>/post/2020/01/20/quantum-ring-simulation/</link>
+      <link>https://karopastal.github.io/qm2-ring/</link>
       <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>/post/2020/01/20/quantum-ring-simulation/</guid>
-      <description>
-      
-      N-site Quantum Ring
-      
-      </description>
+      <guid>https://karopastal.github.io/qm2-ring/</guid>
+      <description>| visit project repositiry &amp;gt; https://github.com/karopastal/quantum_states_detector
+. . . </description>
     </item>
+    
     <item>
-      <title>LHC Autoencoder Neural Network for CWT</title>
-      <link>/post/2019/12/10/lhc-autoencoder-neural-network-for-cwt/</link>
-      <pubDate>Tue, 10 Dec 2019 11:15:00 -0300</pubDate>
+      <title>LHC autoencoder neural network for wavelet transform</title>
+      <link>https://karopastal.github.io/bsm-ae-lhc/</link>
+      <pubDate>Tue, 10 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/2019/12/10/lhc-autoencoder-neural-network-for-cwt/</guid>
-      <description>
-      
-      Generating Signals, Backgrounds and Wavelets
-      
-      </description>
+      <guid>https://karopastal.github.io/bsm-ae-lhc/</guid>
+      <description>This is a short technical tutorial to get quickly into configuring signals, backgrounds and wavelets using the Signal Generator . Make sure before starting that you have completed the project setup/update as presented in the project&amp;rsquo;s README .
+up and running Lets run the management app:
+$ make web  Visit the management app: http://127.0.0.1:5000/
+As you can see under the signals, background and wavelets tabs there is a configuration that is presented by default.</description>
     </item>
     
   </channel>

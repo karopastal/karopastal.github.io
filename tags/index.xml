@@ -1,50 +1,38 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on *</title>
-    <link>/tags/</link>
-    <description>Recent content in Tags on </description>
+    <title>Tags on Tal Paskaro</title>
+    <link>https://karopastal.github.io/tags/</link>
+    <description>Recent content in Tags on Tal Paskaro</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Jan 2020 00:00:00 +0000</lastBuildDate>
-    
-    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
-    
+    <copyright>Tal Paskaro © {year}</copyright>
+    <lastBuildDate>Mon, 20 Jan 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://karopastal.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Python</title>
-      <link>/tags/python/</link>
+      <link>https://karopastal.github.io/tags/python/</link>
       <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/python/</guid>
-      <description>
-      
-      
-      
-      </description>
+      <guid>https://karopastal.github.io/tags/python/</guid>
+      <description></description>
     </item>
+    
     <item>
-      <title>Quantom Mechanics</title>
-      <link>/tags/quantom-mechanics/</link>
+      <title>quantum-mechanics</title>
+      <link>https://karopastal.github.io/tags/quantum-mechanics/</link>
       <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/quantom-mechanics/</guid>
-      <description>
-      
-      
-      
-      </description>
+      <guid>https://karopastal.github.io/tags/quantum-mechanics/</guid>
+      <description></description>
     </item>
+    
     <item>
       <title>CWT</title>
-      <link>/tags/cwt/</link>
-      <pubDate>Tue, 10 Dec 2019 11:15:00 -0300</pubDate>
+      <link>https://karopastal.github.io/tags/cwt/</link>
+      <pubDate>Tue, 10 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/cwt/</guid>
-      <description>
-      
-      
-      
-      </description>
+      <guid>https://karopastal.github.io/tags/cwt/</guid>
+      <description></description>
     </item>
     
   </channel>
